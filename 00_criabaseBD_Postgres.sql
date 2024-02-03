@@ -10,10 +10,10 @@ CREATE DATABASE abds5
     CONNECTION LIMIT = -1;
 '
 WHERE NOT EXISTS (SELECT FROM pg_database WHERE datname = 'abds5')\gexec
+ALTER DATABASE abds5 SET datestyle TO 'ISO, DMY';
 
 \c abds5
 
-ALTER DATABASE abds5 SET datestyle TO 'ISO, DMY';
 SET TIMEZONE TO 'UTC';
 
 CREATE EXTENSION if NOT EXISTS pgcrypto;
