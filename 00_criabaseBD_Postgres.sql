@@ -14,6 +14,7 @@ WHERE NOT EXISTS (SELECT FROM pg_database WHERE datname = 'abds5')\gexec
 
 \c abds5
 
+ALTER DATABASE abds5 SET datestyle TO 'ISO, DMY';
 SET TIMEZONE TO 'UTC';
 
 CREATE EXTENSION if NOT EXISTS pgcrypto;
@@ -397,28 +398,28 @@ insert into vendedor
 --tabelas Cliente e Vendedor
 
 insert into pedido
-  values (121,20,410,209, null, '24/09/2017');
+  values (121,20,410,209, null, '2017-09-21');
 
 insert into pedido
-  values (120,20,410,209, null, '24/01/2017');
+  values (120,20,410,209, null, '2017-01-24');
 
 insert into pedido
-  values (122,20,410,209, null, '24/02/2017');
+  values (122,20,410,209, null, '2017-02-24/02/2017');
 
 insert into pedido
-  values (123,20,410,209, null, '24/03/2017');
+  values (123,20,410,209, null, '2022-03-24/03/2017');
 
 insert into pedido
-  values (124,20,410,209, null, '24/04/2017');
+  values (124,20,410,209, null, '2020-04-24/04/2017');
 
 insert into pedido
-  values (125,20,410,209, null, '24/05/2017');
+  values (125,20,410,209, null, '2021-05-24/05/2017');
 
 insert into pedido
-  values (126,20,410,209, null, '24/06/2017');
+  values (126,20,410,209, null, '2021-06-24/06/2017');
 
 insert into pedido
-  values (147,20,410,209, null, '24/07/2017');
+  values (147,20,410,209, null, '2024-07-01/07/2017');
 
 insert into pedido
   values (128,20,410,209, null, '24/08/2017');
@@ -499,70 +500,70 @@ insert into pedido
   values (105,15,180,240, null,'03/11/2018');
 
 insert into pedido
-  values (111,20,260,240, null,'04/07/2017');
+  values (111,20,260,240, null,'2023-07-04/07/2017');
 
 insert into pedido
-  values (103,20,260,240, null,'01/02/2018');
+  values (103,20,260,240, null,'2023-02-15/02/2018');
 
 insert into pedido
-  values (91,20,260,11, null,'01/02/2018');
+  values (91,20,260,11, null,'2023-02-1501/02/2018');
 
 insert into pedido
-  values (138,20,260,11, null,'01/02/2018');
+  values (138,20,260,11, null,'2023-01-02/02/2018');
 
 insert into pedido
-  values (108,15,290,310, null,'01/02/2018');
+  values (108,15,290,310, null,'2023-02-01/02/2018');
 
 insert into pedido
-  values (119,30,390,250, null,'01/02/2018');
+  values (119,30,390,250, null,'2022-02-01/02/2018');
 
 insert into pedido
-  values (127,10,410,11, null,'01/02/2019');
+  values (127,10,410,11, null,'2022-02-01/02/2019');
 
 insert into pedido
-  values (270,5,180,310, null,'15/09/2019');
+  values (270,5,180,310, null,'2021-09-15/09/2019');
 
 insert into pedido
-  values (200,5,180,310, null,'05/09/2019');
+  values (200,5,180,310, null,'2021-09-05/09/2019');
 
 insert into pedido
-  values (201,5,260,240, null,'06/09/2019');
+  values (201,5,260,240, null,'2021-09-06/09/2019');
 
 insert into pedido
-  values (271,7,260,240, null,'01/02/2019');
+  values (271,7,260,240, null,'2021-02-01/02/2019');
 
 insert into pedido
-  values (272,7,260,240, null,'01/01/2019');
+  values (272,7,260,240, null,'2021-01-26');
 
 insert into pedido
-  values (273,7,260,240, null,'01/03/2019');
+  values (273,7,260,240, null,'2020-03-01');
 
 insert into pedido
-  values (274,7,260,240, null,'01/04/2019');
+  values (274,7,260,240, null,'2020-04-01/04/2019');
 
 insert into pedido
-  values (275,7,260,240, null,'01/05/2019');
+  values (275,7,260,240, null,'2019-05-01/05/2019');
 
 insert into pedido
-  values (276,7,260,240, null,'01/06/2019');
+  values (276,7,260,240, null,'2019-06-01/06/2019');
 
 insert into pedido
-  values (277,7,260,240, null,'01/07/2019');
+  values (277,7,260,240, null,'2019-07-01/07/2019');
 
 insert into pedido
-  values (278,7,260,240, null,'01/08/2019');
+  values (278,7,260,240, null,'2019-08-01/08/2019');
 
 insert into pedido
-  values (279,7,260,240, null,'01/09/2019');
+  values (279,7,260,240, null,'2019-01-01/09/2019');
 
 insert into pedido
-  values (280,7,260,240, null,'01/10/2019');
+  values (280,7,260,240, null,'2019-10-01/10/2019');
 
 insert into pedido
-  values (281,7,260,240, null,'01/11/2019');
+  values (281,7,260,240, null,'2019-11-01/11/2019');
 
 insert into pedido
-  values (282,7,260,240, null,'01/12/2019');
+  values (282,7,260,240, null,'2019-12-01/12/2019');
 
 
 
