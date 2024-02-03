@@ -397,173 +397,61 @@ insert into vendedor
 --Nota: So podemos inserir dados nesta tabela, depois de inserir dados nas
 --tabelas Cliente e Vendedor
 
-insert into pedido
-  values (121,20,410,209, null, '2017-09-21');
-
-insert into pedido
-  values (120,20,410,209, null, '2017-01-24');
-
-insert into pedido
-  values (122,20,410,209, null, '2017-02-24/02/2017');
-
-insert into pedido
-  values (123,20,410,209, null, '2022-03-24/03/2017');
-
-insert into pedido
-  values (124,20,410,209, null, '2020-04-24/04/2017');
-
-insert into pedido
-  values (125,20,410,209, null, '2021-05-24/05/2017');
-
-insert into pedido
-  values (126,20,410,209, null, '2021-06-24/06/2017');
-
-insert into pedido
-  values (147,20,410,209, null, '2024-07-01/07/2017');
-
-insert into pedido
-  values (128,20,410,209, null, '24/08/2017');
-
-insert into pedido
-  values (129,20,410,209, null, '24/10/2017');
-
-insert into pedido
-  values (130,20,410,209, null, '24/11/2017');
-
-insert into pedido
-  values (131,20,410,209, null, '24/12/2017');
-
-insert into pedido
-  values (97,20,720,101, null, '24/09/2017');
-
-insert into pedido
-  values (101,15,720,101, null, '12/03/2019');
-
-insert into pedido
-  values (137,20,720,720, null, '27/11/2018');
-
-insert into pedido
-  values (250,20,720,720, null, '27/01/2018');
-
-insert into pedido
-  values (251,20,720,720, null, '27/02/2018');
-
-insert into pedido
-  values (252,20,720,720, null, '27/03/2018');
-
-insert into pedido
-  values (253,20,720,720, null, '27/04/2018');
-
-insert into pedido
-  values (254,20,720,720, null, '27/05/2018');
-
-insert into pedido
-  values (255,20,720,720, null, '27/06/2018');
-
-insert into pedido
-  values (256,20,720,720, null, '27/07/2018');
-
-insert into pedido
-  values (257,20,720,720, null, '27/08/2018');
-
-insert into pedido
-  values (258,20,720,720, null, '27/09/2018');
-
-insert into pedido
-  values (259,20,720,720, null, '27/10/2018');
-
-insert into pedido
-  values (260,20,720,720, null, '27/12/2018');
-
-
-
-
-insert into pedido
-  values (148,20,720,101, null, '08/07/2018');
-
-insert into pedido
-  values (189,15,870,213, null, '14/03/2019');
-
-insert into pedido
-  values (104,30,110,101, null, '19/08/2018');
-
-insert into pedido
-  values (203,30,830,250, null, '01/02/2018');
-
-insert into pedido
-  values (98,20,410,209, null, '06/04/2019');
-
-insert into pedido
-  values (143,30,20,111, null, '12/03/2019');
-
-insert into pedido
-  values (105,15,180,240, null,'03/11/2018');
-
-insert into pedido
-  values (111,20,260,240, null,'2023-07-04/07/2017');
-
-insert into pedido
-  values (103,20,260,240, null,'2023-02-15/02/2018');
-
-insert into pedido
-  values (91,20,260,11, null,'2023-02-1501/02/2018');
-
-insert into pedido
-  values (138,20,260,11, null,'2023-01-02/02/2018');
-
-insert into pedido
-  values (108,15,290,310, null,'2023-02-01/02/2018');
-
-insert into pedido
-  values (119,30,390,250, null,'2022-02-01/02/2018');
-
-insert into pedido
-  values (127,10,410,11, null,'2022-02-01/02/2019');
-
-insert into pedido
-  values (270,5,180,310, null,'2021-09-15/09/2019');
-
-insert into pedido
-  values (200,5,180,310, null,'2021-09-05/09/2019');
-
-insert into pedido
-  values (201,5,260,240, null,'2021-09-06/09/2019');
-
-insert into pedido
-  values (271,7,260,240, null,'2021-02-01/02/2019');
-
-insert into pedido
-  values (272,7,260,240, null,'2021-01-26');
-
-insert into pedido
-  values (273,7,260,240, null,'2020-03-01');
-
-insert into pedido
-  values (274,7,260,240, null,'2020-04-01/04/2019');
-
-insert into pedido
-  values (275,7,260,240, null,'2019-05-01/05/2019');
-
-insert into pedido
-  values (276,7,260,240, null,'2019-06-01/06/2019');
-
-insert into pedido
-  values (277,7,260,240, null,'2019-07-01/07/2019');
-
-insert into pedido
-  values (278,7,260,240, null,'2019-08-01/08/2019');
-
-insert into pedido
-  values (279,7,260,240, null,'2019-01-01/09/2019');
-
-insert into pedido
-  values (280,7,260,240, null,'2019-10-01/10/2019');
-
-insert into pedido
-  values (281,7,260,240, null,'2019-11-01/11/2019');
-
-insert into pedido
-  values (282,7,260,240, null,'2019-12-01/12/2019');
+insert into pedido  values (121,20,410,209, null, '2017-09-21');
+insert into pedido  values (120,20,410,209, null, '2017-01-24');
+insert into pedido  values (122,20,410,209, null, '2017-02-24');
+insert into pedido  values (123,20,410,209, null, '2022-03-24');
+insert into pedido  values (124,20,410,209, null, '2020-04-24');
+insert into pedido  values (125,20,410,209, null, '2021-05-24');
+insert into pedido  values (126,20,410,209, null, '2021-06-24');
+insert into pedido  values (147,20,410,209, null, '2024-07-01');
+insert into pedido  values (128,20,410,209, null, '2023-08-21');
+insert into pedido  values (129,20,410,209, null, '2023-08-21');
+insert into pedido  values (130,20,410,209, null, '2023-08-21');
+insert into pedido  values (131,20,410,209, null, '2022-08-21');
+insert into pedido  values (97, 20,720,101, null, '2022-09-21');
+insert into pedido  values (101,15,720,101, null, '2022-09-12');
+insert into pedido  values (137,20,720,720, null, '2022-09-19');
+insert into pedido  values (250,20,720,720, null, '2023-09-19');
+insert into pedido  values (251,20,720,720, null, '2023-09-19');
+insert into pedido  values (252,20,720,720, null, '2023-09-19');
+insert into pedido  values (253,20,720,720, null, '2023-10-19');
+insert into pedido  values (254,20,720,720, null, '2021-10-08');
+insert into pedido  values (255,20,720,720, null, '2021-10-08');
+insert into pedido  values (256,20,720,720, null, '2021-10-08');
+insert into pedido  values (257,20,720,720, null, '2021-10-08');
+insert into pedido  values (258,20,720,720, null, '2023-10-08');
+insert into pedido  values (259,20,720,720, null, '2023-10-27');
+insert into pedido  values (260,20,720,720, null, '2023-07-03');
+insert into pedido  values (148,20,720,101, null, '2023-07-03');
+insert into pedido  values (189,15,870,213, null, '2023-07-03');
+insert into pedido  values (104,30,110,101, null, '2023-07-03');
+insert into pedido  values (203,30,830,250, null, '2023-07-03');
+insert into pedido  values (98,20,410,209,  null, '2023-07-06');
+insert into pedido  values (143,30,20,111,  null, '2023-07-12');
+insert into pedido  values (105,15,180,240, null, '2023-01-03');
+insert into pedido  values (111,20,260,240, null,'2023-07-04');
+insert into pedido  values (103,20,260,240, null,'2023-02-15');
+insert into pedido  values (91,20,260,11,   null,'2023-02-15');
+insert into pedido  values (138,20,260,11,  null,'2023-01-02');
+insert into pedido  values (108,15,290,310, null,'2023-02-01');
+insert into pedido  values (119,30,390,250, null,'2022-02-01');
+insert into pedido  values (127,10,410,11,  null,'2022-02-01');
+insert into pedido  values (270,5,180,310,  null,'2021-09-15');
+insert into pedido  values (200,5,180,310, null ,'2021-09-05');
+insert into pedido  values (201,5,260,240, null,'2021-09-06');
+insert into pedido  values (271,7,260,240, null,'2021-02-10');
+insert into pedido  values (272,7,260,240, null,'2021-01-26');
+insert into pedido  values (273,7,260,240, null,'2020-03-01');
+insert into pedido  values (274,7,260,240, null,'2020-04-01');
+insert into pedido  values (275,7,260,240, null,'2019-05-01');
+insert into pedido  values (276,7,260,240, null,'2019-06-01');
+insert into pedido  values (277,7,260,240, null,'2019-07-06');
+insert into pedido  values (278,7,260,240, null,'2019-08-06');
+insert into pedido  values (279,7,260,240, null,'2019-01-06');
+insert into pedido  values (280,7,260,240, null,'2019-10-06');
+insert into pedido  values (281,7,260,240, null,'2019-11-06');
+insert into pedido  values (282,7,260,240, null,'2019-12-10');
 
 
 
