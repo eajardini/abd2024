@@ -6,8 +6,7 @@ select
 '
 CREATE DATABASE abds5
     WITH 
-    OWNER = postgres
-    ENCODING = 'UTF8'
+    OWNER = postgres   
     CONNECTION LIMIT = -1;
 '
 WHERE NOT EXISTS (SELECT FROM pg_database WHERE datname = 'abds5')\gexec
