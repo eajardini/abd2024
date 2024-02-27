@@ -1071,6 +1071,7 @@ create table usa (
         id_usa serial,
         id_obra int,
         id_maquina int, 
+	data_uso date,
         constraint pk_usa primary key (id_usa),
         constraint fk_usa_maquina foreign key (id_maquina)
                 references maquina,
